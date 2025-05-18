@@ -47,19 +47,19 @@ Ensure your model evaluation outputs are saved in a supported format (JSON, CSV,
 
 **📁 Project Structure**
 
-ml_eval_dashboard/     # Core component logic
+ml_eval_dashboard/             # Core component logic
 
-outputs/               # Store model evaluation result files
+outputs/                       # Store model evaluation result files
 
-LICENSE                # License info
+LICENSE                        # License info
 
-MANIFEST.in            # Packaging instructions
+MANIFEST.in                    # Packaging instructions
 
-requirements.txt       # Dependencies list
+requirements.txt               # Dependencies list
 
-setup.py               # Package metadata
+setup.py                       # Package metadata
 
-README.md              # You're here!
+README.md                      # You're here!
 
 **📘 Documentation**
 
