@@ -15,30 +15,42 @@ ML Evaluation Dashboard is a Python-based component designed to visualize, compa
 5) Lightweight and customizable
 
 **📦 Installation**
+
 Clone the repository:
+
 git clone https://github.com/M-Tariq-Butt/ml_eval_dashboard.git
 cd ml_eval_dashboard
 
 (Optional) Create a virtual environment:
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 **🧑‍💻 Usage**
+
 **1. Import and run the dashboard:**
+
 python
+
 from ml_eval_dashboard import Dashboard
 
 # Example usage
+
 dashboard = Dashboard(model_outputs="outputs/evaluation_results.json")
+
 dashboard.run()
 
 **2. Prepare Your Data**
+
 Ensure your model evaluation outputs are saved in a supported format (JSON, CSV, etc.) and placed in the /outputs folder.
 
 **📁 Project Structure**
+
 ml_eval_dashboard/     # Core component logic
 outputs/               # Store model evaluation result files
 LICENSE                # License info
@@ -48,9 +60,11 @@ setup.py               # Package metadata
 README.md              # You're here!
 
 **📘 Documentation**
+
 More detailed API and usage documentation is under development and will be available in the docs/ folder or project wiki.
 
 **⚙️ Dependencies**
+
 See requirements.txt for full dependency list. Key packages:
 matplotlib
 pandas
@@ -58,8 +72,11 @@ plotly
 scikit-learn
 
 **💻 Deployment Requirements**
+
 Python 3.7+
+
 OS: Platform independent (tested on Windows & Linux)
 
 **🪪 License**
+
 This project is licensed under the MIT License. See the LICENSE file for details.
