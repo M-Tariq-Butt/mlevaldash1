@@ -3,11 +3,16 @@
 ML Evaluation Dashboard is a Python-based component designed to visualize, compare, and interpret machine learning model performance. It helps data scientists and ML engineers explore evaluation metrics interactively and share results efficiently.
 
 **🚀 Features**
-Visual comparison of multiple ML models
-Displays key evaluation metrics (e.g., accuracy, F1-score, ROC-AUC)
-Interactive plots for classification and regression tasks
-Easy integration with existing ML pipelines
-Lightweight and customizable
+
+1) Visual comparison of multiple ML models
+
+2) Displays key evaluation metrics (e.g., accuracy, F1-score, ROC-AUC)
+
+3) Interactive plots for classification and regression tasks
+
+4) Easy integration with existing ML pipelines
+
+5) Lightweight and customizable
 
 **📦 Installation**
 Clone the repository:
